@@ -1,0 +1,8 @@
+<h1>내가 작성한 글 목록</h1>
+<h2>
+    <% @every_post.each do |p| %>
+    이름:<%= p.name %>
+    내용:<%= p.content %>
+    <hr><br>
+    <% end %>
+</h2>
